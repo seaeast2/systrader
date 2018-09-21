@@ -67,7 +67,9 @@
     </Compile>
     <Compile Include="Data\ApplicationPage.cs" />
     <Compile Include="Helpers\BaseAttachedProperty.cs" />
+    <Compile Include="Model\XingAPIModel.cs" />
     <Compile Include="ValueConverters\ApplicationPageValueConverter.cs" />
+    <Compile Include="ViewModel\LoginPageVM.cs" />
     <Compile Include="ViewModel\MenuGroupVM.cs" />
     <Compile Include="ViewModel\MenuItemVM.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
@@ -164,9 +166,7 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Model\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="Resources\Images\emoji-background.png" />
   </ItemGroup>

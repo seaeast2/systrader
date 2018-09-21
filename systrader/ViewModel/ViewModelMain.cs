@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Collections.ObjectModel;
-//using SysTrader.Model;
-using systrader.Helpers;
+﻿using System.Collections.Generic;
 using systrader.Data;
 
 namespace systrader.ViewModel
@@ -43,6 +37,8 @@ namespace systrader.ViewModel
             };
 
             _searchedMenuGroup = _allMenuGroup;
+
+            ((App)(System.Windows.Application.Current)).XM.Login();
         }
         #endregion
 
@@ -76,7 +72,7 @@ namespace systrader.ViewModel
         /// <summary>
         /// Indicate current page.
         /// </summary>
-        public ApplicationPage CurrentPage { get; set; } = ApplicationPage.Login;
+        public ApplicationPage CurrentPage { get; set; } = ApplicationPage.MainPage;       
 
         #endregion
     }
