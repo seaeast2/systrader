@@ -6,8 +6,8 @@ namespace systrader.Model
 {
     public class XingAPIModel
     {
-        readonly XASession XAS = new XASession();
-        readonly XAQuery XAQ = new XAQuery();
+        private XASession XAS = new XASession();
+        private XAQuery XAQ = new XAQuery();
 
         public void Login()
         {

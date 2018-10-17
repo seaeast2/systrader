@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace systrader.ViewModel
 {
-    class LoginPageVM
+    public class LoginPageVM
     {
     }
 }
