@@ -36,10 +36,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LiveCharts">
-      <HintPath>Service References\LiveCharts.dll</HintPath>
+      <HintPath>lib\LiveCharts.dll</HintPath>
     </Reference>
     <Reference Include="LiveCharts.Wpf">
-      <HintPath>Service References\LiveCharts.Wpf.dll</HintPath>
+      <HintPath>lib\LiveCharts.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -67,7 +67,6 @@
     </Compile>
     <Compile Include="Data\ApplicationPage.cs" />
     <Compile Include="Helpers\BaseAttachedProperty.cs" />
-    <Compile Include="Model\XingAPIModel.cs" />
     <Compile Include="ValueConverters\ApplicationPageValueConverter.cs" />
     <Compile Include="ViewModel\LoginPageVM.cs" />
     <Compile Include="ViewModel\MenuGroupVM.cs" />
@@ -152,26 +151,8 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <COMReference Include="XA_DATASETLib">
-      <Guid>{CAA15009-CF22-4D1D-AF40-093DBC5A6A0F}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
-    <COMReference Include="XA_SESSIONLib">
-      <Guid>{F5CC65C5-2965-451B-A6C4-CBC7B8B4AE08}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
+    <Folder Include="Model\" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Resource Include="Resources\Images\emoji-background.png" />
   </ItemGroup>

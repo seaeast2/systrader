@@ -5,7 +5,6 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
-using systrader.Model;
 
 namespace systrader
 {
@@ -14,6 +13,6 @@ namespace systrader
     /// </summary>
     public partial class App : Application
     {
-        public XingAPIModel XM { get; set; } = new XingAPIModel();
+        
     }
 }

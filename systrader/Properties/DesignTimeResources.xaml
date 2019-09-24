@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:systrader.Properties">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/systrader;component/Resources/AppDictionary.xaml"/>
+        <ResourceDictionary Source="/systrader;component/Resources/ButtonStyles.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>
